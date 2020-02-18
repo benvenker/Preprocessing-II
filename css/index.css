@@ -168,40 +168,23 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-body header {
-  max-width: 800px;
-  width: 100%;
-  margin: 30px auto 30px auto;
-}
-body header nav {
+nav {
   border-bottom: 2px dashed black;
 }
-body header nav ul li:first-child {
+nav ul li:first-child {
   margin-right: auto;
 }
-body header nav ul.nav-list {
+nav ul.nav-list {
   display: flex;
   justify-content: flex-end;
 }
-body header nav ul.nav-list li.nav-item {
+nav ul.nav-list li.nav-item {
   display: inline-block;
   margin: 20px;
   font-size: 1.6em;
 }
-body header nav ul.nav-list h1 {
+nav ul.nav-list h1 {
   align-items: left;
-}
-body header h2 {
-  padding-top: 20px;
-}
-body header p {
-  padding-bottom: 20px;
-  border-bottom: 5px lightgray dotted;
-}
-body img {
-  margin: auto;
-  max-width: 100%;
-  max-height: 100%;
 }
 .footer {
   width: 100%;
@@ -213,6 +196,36 @@ body img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+header {
+  max-width: 800px;
+  width: 100%;
+  margin: 30px auto 30px auto;
+}
+header nav {
+  border-bottom: 2px dashed black;
+}
+header nav ul li:first-child {
+  margin-right: auto;
+}
+header nav ul.nav-list {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav ul.nav-list li.nav-item {
+  display: inline-block;
+  margin: 20px;
+  font-size: 1.6em;
+}
+header nav ul.nav-list h1 {
+  align-items: left;
+}
+header h2 {
+  padding-top: 20px;
+}
+header p {
+  padding-bottom: 20px;
+  border-bottom: 5px lightgray dotted;
 }
 .home .content-section {
   margin: 30px 0;
