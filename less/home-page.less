@@ -4,7 +4,15 @@ header {
   margin: 30px auto 30px auto;
   @media @mobile {
     padding: 20px;
-    margin-bottom: 0;
+    margin: 0 auto 0 auto;
+  }
+
+  h1.mobile-logo {
+    display: none;
+    @media @mobile {
+      display: block;
+      text-align: center;
+    }
   }
 
   h2 {

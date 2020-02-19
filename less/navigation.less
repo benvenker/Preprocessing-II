@@ -1,6 +1,11 @@
 // Navigation Styles here
 nav {
   border-bottom: 2px dashed black;
+  nav .logo {
+    margin-right: auto;
+    display: block;
+    width: 100%;
+  }
 
   ul {
     li {
@@ -8,10 +13,20 @@ nav {
         margin-right: auto;
       }
     }
+
+    .logo {
+      @media @mobile {
+        display: none;
+      }
+    }
   }
   ul.nav-list {
     display: flex;
     justify-content: flex-end;
+
+    @media @mobile {
+      justify-content: space-between;
+    }
 
     li.nav-item {
       display: inline-block;
