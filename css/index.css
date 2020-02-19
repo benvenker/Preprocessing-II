@@ -223,6 +223,11 @@ header p {
 .home .content-section .text-content h2 {
   padding-top: 20px;
 }
+@media only screen and (max-width: 500px) {
+  .home .content-section .text-content h2 {
+    color: red;
+  }
+}
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
