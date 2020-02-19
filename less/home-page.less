@@ -79,6 +79,11 @@ header {
     width: 75%;
     margin: 0 auto 30px;
 
+    @media @mobile {
+      padding: 30px 20px;
+      width: 100%;
+    }
+
     img {
       border-radius: 10px;
     }
@@ -90,9 +95,18 @@ header {
     display: flex;
     justify-content: space-between;
 
+    @media @mobile {
+      flex-direction: column;
+    }
+
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      @media @mobile {
+        width: 100%;
+        padding: 0px 50px;
+      }
 
       .btn {
         display: flex;
@@ -100,6 +114,10 @@ header {
         align-items: center;
         font-size: 1.8em;
         .btn(@button-bg, @white, @button-width, @button-height, @border-radius);
+
+        @media @mobile {
+          height: 30px;
+        }
       }
     }
   }
