@@ -12,6 +12,7 @@
 @backgroundPurple: purple;
 
 @tablet: ~"(max-width: 800px)";
+@mobile: ~"(max-width: 500px)";
 
 /// Mixins
 .displayFlex(@justify, @align) {
@@ -24,6 +25,9 @@ a {
   &:hover {
     color: lighten(@backgroundPurple, 30%);
   }
+}
+
+@media @mobile {
 }
 
 @media @tablet {

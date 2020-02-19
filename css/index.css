@@ -218,6 +218,11 @@ header nav ul.nav-list li.nav-item {
   margin: 20px;
   font-size: 1.6em;
 }
+@media (max-width: 500px) {
+  header nav ul.nav-list li.nav-item {
+    color: red;
+  }
+}
 header nav ul.nav-list h1 {
   align-items: left;
 }
