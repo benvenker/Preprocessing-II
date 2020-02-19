@@ -188,8 +188,9 @@ nav ul.nav-list h1 {
 }
 .footer {
   width: 100%;
+  margin-top: 30px;
   border-top: 2px dashed silver;
-  background: #FFEBCD;
+  background: #ffebcd;
 }
 .footer p {
   text-align: center;
@@ -246,7 +247,7 @@ header p {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -265,13 +266,24 @@ header p {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  border-top: 2px dashed #c0c0c0;
   display: flex;
   justify-content: space-between;
 }
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8em;
+  background-color: #17a2b8;
+  color: #ffffff;
+  width: 85%;
+  height: 20%;
+  border-radius: 10px;
 }
 a:hover {
   color: #ff1aff;

@@ -93,6 +93,14 @@ header {
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8em;
+        .btn(@button-bg, @white, @button-width, @button-height, @border-radius);
+      }
     }
   }
 } // home
