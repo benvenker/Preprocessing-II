@@ -203,28 +203,10 @@ header {
   width: 100%;
   margin: 30px auto 30px auto;
 }
-header nav {
-  border-bottom: 2px dashed black;
-}
-header nav ul li:first-child {
-  margin-right: auto;
-}
-header nav ul.nav-list {
-  display: flex;
-  justify-content: flex-end;
-}
-header nav ul.nav-list li.nav-item {
-  display: inline-block;
-  margin: 20px;
-  font-size: 1.6em;
-}
 @media (max-width: 500px) {
-  header nav ul.nav-list li.nav-item {
-    color: red;
+  header {
+    padding: 20px;
   }
-}
-header nav ul.nav-list h1 {
-  align-items: left;
 }
 header h2 {
   padding-top: 20px;
