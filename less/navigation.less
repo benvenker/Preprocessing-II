@@ -1,1 +1,26 @@
 // Navigation Styles here
+nav {
+  border-bottom: 2px dashed black;
+
+  ul {
+    li {
+      &:first-child {
+        margin-right: auto;
+      }
+    }
+  }
+  ul.nav-list {
+    display: flex;
+    justify-content: flex-end;
+
+    li.nav-item {
+      display: inline-block;
+      margin: 20px;
+      font-size: 1.6em;
+    }
+
+    h1 {
+      align-items: left;
+    }
+  }
+}
